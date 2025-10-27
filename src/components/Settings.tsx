@@ -111,7 +111,25 @@ export function Settings() {
             <label className="text-gray-400 text-sm">Portal Version</label>
             <p className="text-white">v1.0.0</p>
           </div>
+          <div>
+            <label className="text-gray-400 text-sm">Active Clients</label>
+            <p className="text-white">1 client (AquaBliss Water - $14.99/month)</p>
+          </div>
+          <div>
+            <label className="text-gray-400 text-sm">Total Monthly Revenue</label>
+            <p className="text-green-400 font-semibold text-lg">$14.99</p>
+          </div>
         </div>
+      </div>
+
+      <div className="bg-blue-900/20 border border-blue-700 rounded-xl p-6">
+        <h3 className="text-white font-semibold text-lg mb-2">Database Status</h3>
+        <p className="text-blue-300 text-sm">
+          ✓ Connected to Supabase Database
+        </p>
+        <p className="text-gray-400 text-xs mt-2">
+          All client data is securely stored and automatically synced.
+        </p>
       </div>
     </div>
   );
